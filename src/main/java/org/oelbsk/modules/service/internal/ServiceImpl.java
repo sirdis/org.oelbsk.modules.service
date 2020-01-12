@@ -8,7 +8,7 @@ public class ServiceImpl implements IService {
 
 	@Override
 	public String hello() {
-		return "Hello Impl";
+		return "Hello JPMS";
 	}
 
 }

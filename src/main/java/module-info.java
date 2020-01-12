@@ -7,5 +7,5 @@ module org.oelbsk.modules.service {
 	provides org.oelbsk.modules.service.IService
 		with org.oelbsk.modules.service.internal.ServiceImpl;
 
-	opens org.oelbsk.modules.service.internal;
+	opens org.oelbsk.modules.service.internal to spring.beans;
 }
